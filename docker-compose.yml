@@ -32,7 +32,7 @@ services:
     build: ./nginx
     image: react_students_app_image
     ports:
-      - "80:80"
+      - "4040:80"
     volumes:
       - build_react:/var/www/htlm
     depends_on:
